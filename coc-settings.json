@@ -1,0 +1,26 @@
+{
+    // explorer
+    "explorer.icon.enableNerdfont": true,
+    "explorer.width": 25,
+    "explorer.file.cdCommand": "cd",
+    // diagnostic
+    "diagnostic.errorSign": "",
+    "diagnostic.warningSign": "",
+    "diagnostic.infoSign": "",
+    "diagnostic.hintSign": "",
+    // clangd
+    "clangd.enabled": true,
+    "clangd.arguments": [
+        "--clang-tidy",
+        "--clang-tidy-checks=*,-cppcoreguidelines-*,-hicpp-*,-fuchsia-*,-google-*,-zircon-*,-abseil-*,-modernize-use-trailing-return-type,-llvm*",
+        "--fallback-style=Microsoft",
+        "--cross-file-rename"
+    ],
+    "clangd.compilationDatabasePath": "./build",
+    // coc-yank
+    "yank.highlight.enable": true,
+    "yank.highlight.duration": 200,
+    "yank.enableCompletion": false,
+    // coc-pyright
+    "python.venvPath": "~/venv/"
+}
