@@ -1,3 +1,4 @@
+let g:coc_global_extensions = ['coc-json', 'coc-git', 'coc-explorer', 'coc-clangd', 'coc-yank', 'coc-tasks', 'coc-snippets', 'coc-pairs', 'coc-lists', 'coc-pyright']
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? coc#_select_confirm() :
       \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
