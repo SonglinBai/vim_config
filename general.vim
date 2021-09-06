@@ -37,6 +37,7 @@ set shortmess+="c"
 set listchars=lead:.,trail:.
 set title
 set showtabline=2
+language en_US
 
 let &t_SI = "\e[5 q"
 let &t_EI = "\e[2 q"
@@ -67,3 +68,5 @@ set smartcase
 " Spell
 set nospell
 set spelllang=en_us
+
+set belloff=all

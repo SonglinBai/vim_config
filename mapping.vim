@@ -1,3 +1,6 @@
+" Mapleader
+let mapleader=" "
+
 " Map
 " toggle
 nnoremap <leader>th :set hlsearch!<CR>
@@ -17,6 +20,11 @@ tnoremap <C-h> <C-w>h
 tnoremap <C-j> <C-w>j
 tnoremap <C-k> <C-w>k
 tnoremap <C-l> <C-w>l
+
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 " Edit
 xnoremap < <gv
@@ -68,5 +76,5 @@ nnoremap <leader>e :CocCommand explorer<CR>
 
 
 " fugitive
-nnoremap <leader>gs :Gstatus<CR>
+nnoremap <leader>gs :Git<CR>
 nnoremap <leader>gc :Git commit<CR>
